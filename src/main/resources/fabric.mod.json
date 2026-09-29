@@ -1,0 +1,18 @@
+{
+    "schemaVersion": 1,
+    "id": "dauphin2mod",
+    "version": "1.0.0",
+    "name": "Dauphin 2 Mod",
+    "description": "A mod that allows you to fly an AS365 Dauphin 2 helicopter in Minecraft.",
+    "authors": ["witonvalentin92"],
+    "license": "MIT",
+    "environment": "client",
+    "entrypoints": {
+        "main": [
+            "com.witonvalentin92.dauphin2mod.Dauphin2Mod"
+        ]
+    },
+    "mixins": [
+        "dauphin2mod.mixins.json"
+    ]
+}
